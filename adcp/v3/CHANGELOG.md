@@ -1,5 +1,25 @@
 # Changelog
 
+## [3.3.0](https://github.com/sujanchalla0510/adcp-go/compare/adcp/v3.2.1...adcp/v3.3.0) (2026-09-26)
+
+
+### Features
+
+* **negotiation:** add AdCP 3.2 proposal APIs ([#467](https://github.com/sujanchalla0510/adcp-go/issues/467)) ([a2fcf7d](https://github.com/sujanchalla0510/adcp-go/commit/a2fcf7d552dd5cda0d9d0f4b5e8b7cfc7a85c477))
+* **signing:** ship signing/signingtest subpackage + ObserveOnly mode ([5a7f90d](https://github.com/sujanchalla0510/adcp-go/commit/5a7f90d037eed3a0ecea439e7cf7fbad2d46947c))
+* **signing:** ship signing/signingtest subpackage + ObserveOnly mode ([006b1c7](https://github.com/sujanchalla0510/adcp-go/commit/006b1c7e850bc5b2c8187bc5362f58c3c17330f4)), closes [#53](https://github.com/sujanchalla0510/adcp-go/issues/53)
+
+
+### Bug Fixes
+
+* **adcp:** adopt protocol 3.2.0-rc.1 ([#493](https://github.com/sujanchalla0510/adcp-go/issues/493)) ([e9543ab](https://github.com/sujanchalla0510/adcp-go/commit/e9543abf0d75c671874cda0f5e0d8fe4081b7639))
+* **adcp:** adopt protocol 3.2.0-rc.3 bundle ([ebf1a10](https://github.com/sujanchalla0510/adcp-go/commit/ebf1a101c33f47e2d386d3035ebf9e59040ff5a1))
+* **adcp:** adopt protocol 3.2.0-rc.3 bundle ([69a0b8f](https://github.com/sujanchalla0510/adcp-go/commit/69a0b8fccc29f568be5e3e4795d8ccbc5fb7fa91))
+* **server:** include required status in the catalog response envelope ([400237b](https://github.com/sujanchalla0510/adcp-go/commit/400237b05dbe4e046c5ea4fe9a1422a4059d9ad1))
+* **server:** include required status in the catalog response envelope ([36ffe0d](https://github.com/sujanchalla0510/adcp-go/commit/36ffe0d4a88b0a2571aa97d754945951284b689e)), closes [#533](https://github.com/sujanchalla0510/adcp-go/issues/533)
+* **version:** honor exact prerelease pins in 3.x negotiation ([50d659e](https://github.com/sujanchalla0510/adcp-go/commit/50d659ea708907b944dfc3e9227c66f82124dd5f))
+* **version:** honor exact prerelease pins in 3.x negotiation ([8a1f40a](https://github.com/sujanchalla0510/adcp-go/commit/8a1f40a7ac400b49695e02c8f0673a6fdf163556)), closes [#527](https://github.com/sujanchalla0510/adcp-go/issues/527)
+
 ## [3.2.1](https://github.com/adcontextprotocol/adcp-go/compare/adcp/v3.2.0...adcp/v3.2.1) (2026-09-05)
 
 
